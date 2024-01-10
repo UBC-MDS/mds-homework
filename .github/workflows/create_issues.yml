@@ -103,29 +103,29 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: DSCI 562 lab4
         content-filepath: ./issue-content/lab.md
-    - name: Create 542 lab1 issue
+    - name: Create 541 lab1 issue
       uses: peter-evans/create-issue-from-file@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: DSCI 542 lab1
+        title: DSCI 541 lab1
         content-filepath: ./issue-content/lab.md
-    - name: Create 542 lab2 issue
+    - name: Create 541 lab2 issue
       uses: peter-evans/create-issue-from-file@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: DSCI 542 lab2
+        title: DSCI 541 lab2
         content-filepath: ./issue-content/lab.md
-    - name: Create 542 lab3 issue
+    - name: Create 541 lab3 issue
       uses: peter-evans/create-issue-from-file@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: DSCI 542 lab3
+        title: DSCI 541 lab3
         content-filepath: ./issue-content/lab.md
-    - name: Create 542 lab4 issue
+    - name: Create 541 lab4 issue
       uses: peter-evans/create-issue-from-file@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: DSCI 542 lab4
+        title: DSCI 541 lab4
         content-filepath: ./issue-content/lab.md
     - name: Create 562 quiz 1 issue
       uses: peter-evans/create-issue-from-file@v4
